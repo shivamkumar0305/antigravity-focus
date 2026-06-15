@@ -6,7 +6,9 @@ A modern productivity and focus-tracking application designed to help users buil
 
 📖 Overview
 
-FocusFlow is built around a simple idea: consistency beats intensity.
+FocusFlow is built around a simple idea:
+
+Consistency beats intensity.
 
 Rather than focusing solely on task completion, FocusFlow helps users develop sustainable habits by tracking focused work sessions, measuring progress against daily goals, and providing insights into long-term productivity patterns.
 
@@ -73,19 +75,22 @@ State Management
 
 📈 Metrics Tracked
 
-* Daily Focus Time
-* Goal Completion Percentage
-* Current Streak
-* Longest Streak
-* Total Focus Hours
-* Total Sessions Completed
-* Consistency Activity History
+Metric	Description
+Daily Focus Time	Total focused time for the day
+Goal Completion %	Progress toward daily target
+Current Streak	Consecutive productive days
+Longest Streak	Best streak achieved
+Total Focus Hours	Lifetime tracked focus time
+Total Sessions	Completed focus sessions
+Activity History	Consistency heatmap data
 
 ⸻
 
 🎯 Purpose
 
-Maintaining focus and consistency can be challenging in today’s distraction-heavy environment. FocusFlow provides users with clear feedback on their productivity habits, helping them stay accountable and make steady progress toward their goals.
+Maintaining focus and consistency can be challenging in today’s distraction-heavy environment.
+
+FocusFlow provides users with clear feedback on their productivity habits, helping them stay accountable and make steady progress toward their goals.
 
 By visualizing effort through analytics, streaks, and heatmaps, users can better understand their work patterns and build lasting discipline.
 
@@ -93,17 +98,29 @@ By visualizing effort through analytics, streaks, and heatmaps, users can better
 
 🚀 Future Improvements
 
-* Task & Project Categories
-* Weekly and Monthly Reports
-* Achievement & Badge System
-* Calendar-Based Activity View
-* Session Notes & Reflections
-* Data Export Functionality
-* Smart Productivity Insights
-* Cross-Device Synchronization
+* 📂 Task & Project Categories
+* 📅 Weekly and Monthly Reports
+* 🏅 Achievement & Badge System
+* 🗓️ Calendar-Based Activity View
+* 📝 Session Notes & Reflections
+* 📤 Data Export Functionality
+* 🤖 Smart Productivity Insights
+* ☁️ Cross-Device Synchronization
 
 ⸻
 
-📌 Status
+📌 Project Status
 
-Currently under active development with a focus on improving user experience, performance, and productivity insights.
+🚧 Currently under active development
+
+The focus is on improving:
+
+* User Experience (UX)
+* Application Performance
+* Productivity Analytics
+* Data Visualization
+* Long-term Habit Tracking
+
+⸻
+
+⭐ Build Consistency. Track Progress. Stay Focused.
