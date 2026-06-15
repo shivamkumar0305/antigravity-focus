@@ -1,102 +1,103 @@
-🎯 FocusFlow
+# 🎯 FocusFlow
 
-A modern productivity and focus-tracking application designed to help users build consistent work and study habits through focus sessions, goal tracking, streaks, analytics, and visual progress monitoring.
+> A modern productivity and focus-tracking application designed to help users build consistent work and study habits through focus sessions, goal tracking, streaks, analytics, and visual progress monitoring.
 
-⸻
+---
 
-📖 Overview
+## 📖 Overview
 
-FocusFlow is built around a simple idea:
+**FocusFlow** is built around a simple idea:
 
-Consistency beats intensity.
+> **Consistency beats intensity.**
 
 Rather than focusing solely on task completion, FocusFlow helps users develop sustainable habits by tracking focused work sessions, measuring progress against daily goals, and providing insights into long-term productivity patterns.
 
-⸻
+---
 
-✨ Features
+## ✨ Features
 
-⏱️ Focus Sessions
+### ⏱️ Focus Sessions
 
 * Start and track focused work or study sessions
 * Record session durations automatically
 * Maintain a history of completed sessions
 
-🎯 Daily Goals
+### 🎯 Daily Goals
 
 * Set customizable daily focus targets
 * Track progress toward daily objectives
 * Monitor goal completion rates
 
-🔥 Streak Tracking
+### 🔥 Streak Tracking
 
 * Track consecutive productive days
 * View current and longest streaks
 * Build motivation through consistency
 
-📊 Analytics Dashboard
+### 📊 Analytics Dashboard
 
 * Analyze focus trends over time
 * Monitor productivity performance
 * Track cumulative focus time and session statistics
 
-🗓️ Consistency Heatmap
+### 🗓️ Consistency Heatmap
 
 * GitHub-style activity visualization
 * View productivity patterns at a glance
 * Identify periods of strong and weak consistency
 
-🏆 Milestones
+### 🏆 Milestones
 
 * Track total focus hours
 * Monitor total completed sessions
 * Celebrate long-term productivity achievements
 
-⸻
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Frontend
+### Frontend
 
 * React
 * TypeScript
 * Vite
 
-Styling
+### Styling
 
 * Tailwind CSS
 
-State Management
+### State Management
 
 * React Hooks
 * Context API
 
-⸻
+---
 
-📈 Metrics Tracked
+## 📈 Metrics Tracked
 
-Metric	Description
-Daily Focus Time	Total focused time for the day
-Goal Completion %	Progress toward daily target
-Current Streak	Consecutive productive days
-Longest Streak	Best streak achieved
-Total Focus Hours	Lifetime tracked focus time
-Total Sessions	Completed focus sessions
-Activity History	Consistency heatmap data
+| Metric            | Description                    |
+| ----------------- | ------------------------------ |
+| Daily Focus Time  | Total focused time for the day |
+| Goal Completion % | Progress toward daily target   |
+| Current Streak    | Consecutive productive days    |
+| Longest Streak    | Best streak achieved           |
+| Total Focus Hours | Lifetime tracked focus time    |
+| Total Sessions    | Completed focus sessions       |
+| Activity History  | Consistency heatmap data       |
 
-⸻
+---
 
-🎯 Purpose
+## 🎯 Purpose
 
-Maintaining focus and consistency can be challenging in today’s distraction-heavy environment.
+Maintaining focus and consistency can be challenging in today's distraction-heavy environment.
 
 FocusFlow provides users with clear feedback on their productivity habits, helping them stay accountable and make steady progress toward their goals.
 
 By visualizing effort through analytics, streaks, and heatmaps, users can better understand their work patterns and build lasting discipline.
 
-⸻
+---
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 * 📂 Task & Project Categories
 * 📅 Weekly and Monthly Reports
@@ -107,11 +108,11 @@ By visualizing effort through analytics, streaks, and heatmaps, users can better
 * 🤖 Smart Productivity Insights
 * ☁️ Cross-Device Synchronization
 
-⸻
+---
 
-📌 Project Status
+## 📌 Project Status
 
-🚧 Currently under active development
+🚧 **Currently under active development**
 
 The focus is on improving:
 
@@ -121,6 +122,6 @@ The focus is on improving:
 * Data Visualization
 * Long-term Habit Tracking
 
-⸻
+---
 
-⭐ Build Consistency. Track Progress. Stay Focused.
+### ⭐ Build Consistency. Track Progress. Stay Focused.
