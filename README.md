@@ -1,73 +1,89 @@
-# React + TypeScript + Vite
+FocusFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FocusFlow is a productivity and habit-building application designed to help users stay consistent with their work and study goals. By combining focus session tracking, daily goals, streaks, analytics, and visual progress indicators, it encourages long-term consistency rather than short bursts of productivity.
 
-Currently, two official plugins are available:
+Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Many productivity tools focus only on task completion. FocusFlow emphasizes consistency by helping users track how much focused work they do each day, monitor their progress over time, and build sustainable habits.
 
-## React Compiler
+Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Focus Sessions
 
-## Expanding the ESLint configuration
+* Track focused work and study sessions
+* Record session duration automatically
+* Maintain a history of completed sessions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Daily Goals
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* Set customizable daily focus targets
+* Monitor progress toward daily objectives
+* Measure goal completion rates over time
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Streak Tracking
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* Track consecutive days of meeting productivity goals
+* View current and longest streaks
+* Stay motivated through consistency-based progress
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Analytics Dashboard
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* Analyze focus trends and productivity patterns
+* View cumulative focus time and session statistics
+* Gain insights into personal productivity habits
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Consistency Heatmap
+
+* Visualize daily activity through a contribution-style heatmap
+* Identify periods of high and low consistency
+* Track long-term engagement at a glance
+
+Milestones
+
+* Monitor total focus hours accumulated
+* Track total completed focus sessions
+* Celebrate significant productivity achievements
+
+Technology Stack
+
+Frontend
+
+* React
+* TypeScript
+* Vite
+
+Styling
+
+* Tailwind CSS
+
+State Management
+
+* React Hooks & Context API
+
+Key Metrics Tracked
+
+* Daily Focus Time
+* Goal Completion Percentage
+* Current Streak
+* Longest Streak
+* Total Focus Hours
+* Total Sessions Completed
+* Consistency Score
+
+Motivation
+
+FocusFlow was built around a simple idea: meaningful progress comes from consistent effort over time. By providing clear feedback through analytics, streaks, and visualizations, the application helps users develop stronger work habits and maintain long-term discipline.
+
+Future Enhancements
+
+* Task and project categorization
+* Weekly and monthly productivity reports
+* AI-generated productivity insights
+* Achievement and badge system
+* Calendar-based activity history
+* Session notes and reflections
+* Data export and sharing features
+
+Status
+
+Actively developed and continuously improved with a focus on user experience, performance, and meaningful productivity insights.
